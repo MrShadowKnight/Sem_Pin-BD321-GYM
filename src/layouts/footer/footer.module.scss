@@ -1,6 +1,18 @@
 .footer {
-  background-color: aqua;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background-color: #2B2024;
+  height: 674px;
+  padding: 117px 140px 62px;
+
+  .footerMenu {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: blue;
+    height: 80%;
+  }
+  .footerCopyright {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    background-color: red;
+    height: 20%;
+  }
 }
