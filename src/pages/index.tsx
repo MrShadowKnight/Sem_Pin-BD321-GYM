@@ -1,8 +1,15 @@
-import Head from "next/head";
-import Link from "next/link";
-import styles from "@/styles/Home.module.scss";
+import s from "@/styles/Home.module.scss";
 // import components
 
-export default function Home() {
-  return <></>;
+import React from 'react'
+
+const Home = () => {
+  return (
+		<>
+			<div className={s.box}>e</div>
+			<div className={s.box2}>e</div>
+		</>
+  );
 }
+
+export default Home

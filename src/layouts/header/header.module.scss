@@ -1,6 +1,7 @@
 .header {
-  background-color: aqua;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  position: absolute;
+  background-color: lightblue;
+  width: 90vw;
+  height: 50vh;
+  z-index: 2;
 }
