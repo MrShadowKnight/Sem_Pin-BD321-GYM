@@ -1,13 +1,9 @@
 import { useState, useEffect } from "react";
-import { nanoid } from "nanoid";
-import s from "@/styles/Home.module.scss";
-// import components
-
-import React from "react";
+import CoachItem from "./CoachItem";
 
 const baseURL = "http://localhost:3001/coaches";
 
-const Home = () => {
+const CoachList = () => {
 	const [data, setData] = useState([]);
 	const handleGetData = async () => {
 		try {
@@ -29,15 +25,11 @@ const Home = () => {
 	}, []);
 	return (
 		<>
-			<div className={s.box}>e</div>
-			<div className={s.box2}>
-				<button>new</button>
-				<button>edit</button>
-				<button>delete</button>
-			</div>
-			<ul>{/* {data.map(item => (<li>{item.name: string}</li>))} */}</ul>
+			{data.map((item) => (
+				<CoachItem item={item} key={item.id} />
+			))}
 		</>
 	);
 };
 
-export default Home;
+export default CoachList;

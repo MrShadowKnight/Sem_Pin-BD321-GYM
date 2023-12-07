@@ -1,17 +1,30 @@
 {
   "coaches": [
     {
-      "name": "Vlad",
-      "id": 1
+      "id": 1,
+      "name": "Ross Blackman",
+      "title": "lorem",
+      "desc": "lorem",
+      "summary": "lorem",
+      "profile": {
+        "bodybuilding": "",
+        "weightlifting": "",
+        "running": ""
+      },
+      "imgURL": "/bodybuilder.jpg"
     },
     {
-      "name": "Vlad",
-      "id": 2
-    },
-    {
-      "id": "gf6TcD8UbzIq08mbUf1R3",
-      "name": "Vlad",
-      "rating": 0.8
+      "id": 2,
+      "name": "Alex Pheonix",
+      "title": "lorem",
+      "desc": "lorem",
+      "summary": "lorem",
+      "profile": {
+        "bodybuilding": "",
+        "weightlifting": "",
+        "running": ""
+      },
+      "imgURL": "/bodybuilder2.jpg"
     }
   ]
 }

@@ -1,4 +1,4 @@
-import React from "react";
+import Link from "next/link";
 import s from "./header.module.scss";
 
 const Header = () => {
@@ -6,8 +6,8 @@ const Header = () => {
 		<>
 			<div className={s.header}>
         <nav>
-          <a href="/">home</a>
-          <a href="./coaches">coaches</a>
+          <Link href="/">home</Link>
+          <Link href="./coaches">coaches</Link>
         </nav>
       </div>
 		</>
