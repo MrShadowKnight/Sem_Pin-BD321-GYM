@@ -1,4 +1,4 @@
-import coachInfo from "@/coaches/[coachId]/coachInfo";
+import coachInfo from "@/pages/coachInfo";
 import Link from "next/link";
 
 const CoachItem = ({ item }) => {
