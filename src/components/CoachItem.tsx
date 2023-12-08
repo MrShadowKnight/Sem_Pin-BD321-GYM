@@ -1,14 +1,11 @@
-import coachInfo from "@/pages/coachInfo";
+import coachInfo from "@/coaches/[coachId]/coachInfo";
 import Link from "next/link";
 
 const CoachItem = ({ item }) => {
-	console.log(item);
 	return (
-		<div>
-			<Link href="./coachInfo">
-				<img src={item.imgURL} />
-			</Link>
-		</div>
+		<Link href="./coaches">
+			<img src={item.imgURL} />
+		</Link>
 	);
 };
 

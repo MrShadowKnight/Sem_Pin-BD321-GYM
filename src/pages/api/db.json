@@ -11,10 +11,62 @@
         "weightlifting": "",
         "running": ""
       },
-      "imgURL": "/bodybuilder.jpg"
+      "imgURL": "/bodybuilder2.jpg"
     },
     {
       "id": 2,
+      "name": "Alex Pheonix",
+      "title": "lorem",
+      "desc": "lorem",
+      "summary": "lorem",
+      "profile": {
+        "bodybuilding": "",
+        "weightlifting": "",
+        "running": ""
+      },
+      "imgURL": "/bodybuilder2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Alex Pheonix",
+      "title": "lorem",
+      "desc": "lorem",
+      "summary": "lorem",
+      "profile": {
+        "bodybuilding": "",
+        "weightlifting": "",
+        "running": ""
+      },
+      "imgURL": "/bodybuilder2.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Alex Pheonix",
+      "title": "lorem",
+      "desc": "lorem",
+      "summary": "lorem",
+      "profile": {
+        "bodybuilding": "",
+        "weightlifting": "",
+        "running": ""
+      },
+      "imgURL": "/bodybuilder2.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Alex Pheonix",
+      "title": "lorem",
+      "desc": "lorem",
+      "summary": "lorem",
+      "profile": {
+        "bodybuilding": "",
+        "weightlifting": "",
+        "running": ""
+      },
+      "imgURL": "/bodybuilder2.jpg"
+    },
+    {
+      "id": 6,
       "name": "Alex Pheonix",
       "title": "lorem",
       "desc": "lorem",
