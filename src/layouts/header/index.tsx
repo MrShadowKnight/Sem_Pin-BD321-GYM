@@ -11,18 +11,18 @@ const Header = () => {
 				</div>
 				<div></div>
 				<div></div>
-				<Link className={s.header__link} href="/">
+				<Link className={s.header__link} href={`/`}>
 					HOME
 				</Link>
-				<Link className={s.header__link} href="./coaches">
+				<Link className={s.header__link} href={`/coaches`}>
 					COACHES
 				</Link>
-				<Link className={s.header__link} href="/">
+				<Link className={s.header__link} href={`/`}>
 					ARTICLES
 				</Link>
 				<div></div>
 				<div></div>
-				<Link className={s.signUp__link} href="/">
+				<Link className={s.signUp__link} href={`/`}>
 					GET STARTED FOR FREE
 				</Link>
 			</header>

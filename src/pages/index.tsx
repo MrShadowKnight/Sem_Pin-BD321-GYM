@@ -31,11 +31,7 @@ const Home = () => {
 		<>
 			<div className={s.box}>e</div>
 			<div className={s.box2}>
-				<button>new</button>
-				<button>edit</button>
-				<button>delete</button>
 			</div>
-			<ul>{/* {data.map(item => (<li>{item.name: string}</li>))} */}</ul>
 		</>
 	);
 };
