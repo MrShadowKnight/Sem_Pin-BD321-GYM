@@ -3,7 +3,9 @@ import Link from "next/link";
 
 const CoachItem = ({ item }) => {
 	return (
-		<Link href={`/coaches`}>
+		<Link onClick={()=>{
+			alert(item)
+		}} href={`/coaches`}>
 			<img src={item.imgURL} />
 		</Link>
 	);
