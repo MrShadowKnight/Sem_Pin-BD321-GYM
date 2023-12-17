@@ -1,5 +1,5 @@
 .footer {
-  background-color: #2B2024;
+  background-color: #2b2024;
   height: 474px;
   padding: 5% 6% 0;
 
@@ -25,7 +25,7 @@
       }
 
       .column1_title {
-        color: #FD0054;
+        color: #fd0054;
         font-family: Alatsi;
         font-size: 48px;
         font-style: normal;
@@ -35,7 +35,7 @@
       }
 
       .column1_p {
-        color: #E2E2E2;
+        color: #e2e2e2;
         font-family: Alatsi;
         font-size: 24px;
         font-style: normal;
@@ -49,7 +49,7 @@
 
     .column2 {
       .column2_title {
-        color: #FD0054;
+        color: #fd0054;
         font-family: Alatsi;
         font-size: 32px;
         font-style: normal;
@@ -60,7 +60,7 @@
       }
 
       .column2_link {
-        color: #FFF;
+        color: #fff;
         font-family: Alatsi;
         font-size: 24px;
         font-style: normal;
@@ -74,7 +74,7 @@
 
     .column3 {
       .column3_title {
-        color: #FD0054;
+        color: #fd0054;
         font-family: Alatsi;
         font-size: 32px;
         font-style: normal;
@@ -85,7 +85,7 @@
       }
 
       .column3_link {
-        color: #FFF;
+        color: #fff;
         font-family: Alatsi;
         font-size: 24px;
         font-style: normal;
@@ -103,14 +103,14 @@
       align-items: flex-start;
       margin-left: 10%;
 
-      .column4>form {
+      .column4 > form {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
       }
 
       .column4_title {
-        color: #FD0054;
+        color: #fd0054;
         font-family: Alatsi;
         font-size: 32px;
         font-style: normal;
@@ -136,8 +136,8 @@
       .column4_submit {
         width: 40%;
         height: 40%;
-        background: #FD0054;
-        color: #FAFAFA;
+        background: #fd0054;
+        color: #fafafa;
         text-align: center;
         font-family: Alatsi;
         font-size: 100%;
@@ -173,15 +173,14 @@
       grid-column: 1/4;
     }
 
-    .btmColumn_infoBox>p {
+    .btmColumn_infoBox > p {
       padding-right: 5%;
     }
 
     .btmColumn_infoImgBox,
-    .btmColumn_infoImgBox>img {
+    .btmColumn_infoImgBox > img {
       display: flex;
       padding-right: 10%;
     }
   }
-
 }
