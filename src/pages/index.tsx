@@ -3,6 +3,8 @@ import { nanoid } from "nanoid";
 import s from "@/styles/Home.module.scss";
 // import components
 import Hero from "@/components/hero.home/index";
+import Classes from "@/components/classes.home/index";
+import About from "@/components/about.home/index";
 
 import React from "react";
 
@@ -31,7 +33,8 @@ const Home = () => {
   return (
     <>
       <Hero />
-      <div className={s.box2}></div>
+      <Classes />
+      <About />
     </>
   );
 };

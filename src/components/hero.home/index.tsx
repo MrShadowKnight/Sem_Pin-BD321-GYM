@@ -10,7 +10,7 @@ const Hero = () => {
   return (
     <>
       <section className={s.hero}>
-        <Image src={gym} alt="" objectFit="cover" layout="fill" priority />
+        <Image src={gym} alt="" objectFit="cover" layout="fill" />
         <div className={s.hero__box}>
           <div className={s.hero__text}>
             <h2>MAKE YOUR</h2>

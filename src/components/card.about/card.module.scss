@@ -1,0 +1,27 @@
+.card {
+  &__title {
+    display: flex;
+    &_img {
+      margin-right: 100px;
+    }
+    &_text {
+      display: flex;
+      flex-direction: column;
+      h2 {
+        color: #fafafa;
+        font-family: Agency FB;
+        font-size: 20px;
+        font-weight: 700;
+        letter-spacing: 1.2px;
+      }
+      h1 {
+        color: #fafafa;
+        font-family: Agency FB;
+        font-size: 32px;
+        font-weight: 700;
+        letter-spacing: 1.92px;
+        text-transform: uppercase;
+      }
+    }
+  }
+}

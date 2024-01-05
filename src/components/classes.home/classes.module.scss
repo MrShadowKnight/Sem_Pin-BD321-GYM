@@ -1,0 +1,30 @@
+.classes {
+  padding: 0 190px;
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  margin: 300px 0 600px 0;
+  &__subtitle {
+    text-align: center;
+    color: #fd0054;
+    font-family: Agency FB;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 1.92px;
+  }
+  &__title {
+    color: #2b2024;
+    text-align: center;
+    font-family: Agency FB;
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  &__grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 55px;
+  }
+}
