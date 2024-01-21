@@ -1,13 +1,17 @@
 .card {
   &__title {
     display: flex;
+    padding-bottom: 10px;
+    border-bottom: #fd0054 solid 2px;
+    margin-bottom: 12px;
     &_img {
-      margin-right: 10 0px;
+      margin-right: 10px;
     }
     &_text {
       display: flex;
       flex-direction: column;
       h2 {
+        margin-bottom: 4px;
         color: #fafafa;
         font-family: Agency FB;
         font-size: 20px;
@@ -26,20 +30,27 @@
   }
   &__text {
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     p {
       color: #fafafa;
-      font-family: Agency FB;
-      font-size: 20px;
+      font-family: "Agency FB";
+      font-size: 18px;
       letter-spacing: 1.2px;
+      opacity: 0.5;
     }
     h3 {
       color: #fafafa;
       font-family: Agency FB;
-      font-size: 20px;
+      font-size: 16px;
       font-weight: 700;
       letter-spacing: 1.2px;
+      padding: 4px 5px;
       background: #fd0054;
       z-index: 10;
+      :hover {
+        cursor: pointer;
+      }
     }
   }
 }
