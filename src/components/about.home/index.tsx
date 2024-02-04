@@ -30,9 +30,7 @@ const About = () => {
           </div>
         </div>
         <div className={s.about__homeGym}>
-          <div className={s.about__homeGym_background}>
-            <Image src={homeGym} alt="" />
-          </div>
+          <Image className={s.about__homeGym_img} src={homeGym} alt="" />
           <div className={s.about__homeGym_text}>
             <h1 className={s.about__homeGym_text_title}>
               WANY TO PRACTICE <br />

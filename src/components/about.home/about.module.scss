@@ -1,5 +1,10 @@
 .about {
+  display: flex;
+  justify-content: space-between;
   &__nulla {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     padding: 40px 55px 40px 70px;
     margin: 20px 0;
     background-color: #2b2024;
@@ -36,6 +41,43 @@
     }
   }
   &__homeGym {
+    margin-left: 100px;
     display: flex;
+    width: 60%;
+    position: relative;
+    &_img {
+      width: 592px;
+      height: 600px;
+      object-fit: cover;
+      z-index: 1;
+    }
+    &_text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      background: #fd0054;
+      height: 235px;
+      padding-left: 65px;
+      padding-right: 300px;
+      z-index: 100;
+      position: absolute;
+      right: 0;
+      bottom: 20px;
+      &_title {
+        color: #fafafa;
+        font-family: "Agency FB";
+        font-size: 48px;
+        font-weight: 700;
+      }
+      &_link {
+        display: flex;
+        align-items: center;
+        &_img {
+          width: 50px;
+          height: auto;
+          margin-left: 30px;
+        }
+      }
+    }
   }
 }
